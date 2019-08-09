@@ -1,0 +1,2 @@
+oc new-app mongodb-persistent -p MONGODB_USER=admin -p MONGODB_PASSWORD=Papelaye79 -p MONGODB_ADMIN_PASSWORD=Papelaye79
+oc set env dc/nodejs-ex MONGO_URL='mongodb://admin:Papelaye79@mongodb:27017/sampledb'
