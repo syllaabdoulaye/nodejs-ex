@@ -67,15 +67,23 @@ input[type=submit] {
 <body>
 
   <h2>Formulaire de participation au point γ</h2>
-  <form action="#">
+   <form action="#">
     <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
     <fieldset>
       <legend>Contact</legend>
         <label for="nom">Nom <em>*</em></label>
+<<<<<<< HEAD
       
         <input id="nom" placeholder="Olivier-Serre" autofocus="" required=""><br>
+=======
+
+        <input id="nom" placeholder="Serre" autofocus="" required=""><br>
+        <label for="Prenom">Prenom <em>*</em></label>
+
+        <input id="Prenom" placeholder="Serre" autofocus="" required=""><br>
+>>>>>>> 02c72514d34fe296059caf507f6fde68c6f80603
         <label for="telephone">Portable</label>
-        
+      
         <input id="telephone"  placeholder="06xxxxxxxx"><br>
         <label for="email">Email <em>*</em></label>
         <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
@@ -83,7 +91,7 @@ input[type=submit] {
     <fieldset>
       <legend>Information personnelles</legend>
         <label for="age">Age<em>*</em></label>
-        
+
         <input id="age" type="number" placeholder="xx" required=""><br>
         <label for="sexe">Sexe</label>
         <select id="sexe">
@@ -93,7 +101,7 @@ input[type=submit] {
         <label for="comments">Pourquoi voulez-vous vous impliquer dans l'organisation du point γ?</label>
         <textarea id="comments"></textarea>
     </fieldset>
-   
+
     <fieldset>
       <legend>Choisissez vos binets favoris</legend>
       <label for="chatnoir"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Chat Noir</label>
